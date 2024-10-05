@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="images/download.jpeg">
+    <link rel="stylesheet" href="css files/travel.css">
+    <link rel="stylesheet" href="./data1/images/gallery.jpg">
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script>
+    function geetika()
+    {
+          document.getElementById("muskaan").style.display='block';
+    }
+    function close_div()
+    {
+      document.getElementById("muskaan").style.display='none';
+    }
+    function sameer (){
+        document.getElementById("keshav").style.display='block';
+        document.getElementById("ankit").style.display='none';
+
+
+    }
+    function close_login(){
+        document.getElementById("keshav").style.display='none';
+    }
+    function signup(){
+        document.getElementById("ankit").style.display='block';
+        document.getElementById("keshav").style.display='none';
+    }
+    function close_sign(){
+        document.getElementById("ankit").style.display='none';
+    }
+</script>
+</head>
+<body>
+     <!-- sign in  -->
+    <div class="modal" id="ankit">
+        <div class="signin_button">
+            <span class="close_button"  onclick="close_sign()">&times;</span>
+            <h2 align="center">sign_in</h2>
+            <form action="#">
+                <div class="form_div">
+            <label>Name:</label><br>  
+            <input class="myfield" name="name" required placeholder="Enter your name"><br>
+                </div>
+                <div class="form_div">
+            <label>Email:</label><br>
+            <input class="myfield" name="email" required placeholder="Enter youe email"><br>
+                </div>
+                <div class="form_div">
+            <label>Password:</label><br>
+            <input class="myfield" name="password" required placeholder="enter your password"><br>
+                </div>
+            <div class="form_div">
+            <label>Mobile no.:</label><br>
+            <input class="myfield" name="mobile no." required placeholder="enter your number"><br>
+            </div>
+            <button class="btnlogin">sign-in</button><br>
+            <a href="#" onclick="sameer()">Already ave an account?</a>
+ 
+        </form>
+        </div>
+    </div>
+
+
+    <!-- login div -->
+    <div class="modal" id="keshav">
+        <div class="login_button">
+            <span class="close_button"  onclick="close_login()">&times;</span>
+            <h2 align="center">Login</h2>
+            <form action="#">
+                <div class="form_div">
+            <label>Name</label><br>  
+            <input class="myfield" name="name" required placeholder="Enter your name"><br>
+                </div>
+                <div class="form_div">
+            <label>Email</label><br>
+            <input class="myfield" name="email" required placeholder="Enter youe email"><br>
+                </div>
+            <button  class="btnlogin">login</button>
+        </form>
+        <p class="Signup-text">Don't have an account?<a href="#" onclick="signup()">create an account</a></p>
+        </div>
+    </div>
+    <!-------Review Pop Div-->
+ 
+<div class="modal" id="muskaan">
+    <div class="review-content">
+       <span class="close_button"  onclick="close_div()">&times;</span>
+          <h2>Review us</h2>
+          <p>Leave your Review For Our Servies</p>
+          <textarea cols="30" rows="10"> </textarea>
+    </div>
+   </div>
+   
+   <!--Review Pop Up Div End-->
+<div class="contact_div">
+        <div>
+           Address: sec 113-114 first floor,chandigarh
+
+        </div>
+        <div>
+<span>&#9993;</span> :sameervats13@gmail.com
+        </div>
+        <div>
+&#128222; &nbsp; +917814819641  +917740005114
+        </div>
+    </div>
+    
+    
+
+    <header>
+
+         
+                <div class="menubar">
+            <img class="logo_img" src="images/download.jpeg">
+            <div class="menu_container">
+                <a class="menu_item" href="/home.html">Home</a>
+                <a class="menu_item" href="/about.html">About</a>
+                <a class="menu_item" href="/contact.html">Contact</a>
+                <a class="menu_item" href="#" onclick="sameer()">Login</a>
+                <a class="menu_item" href="#" onclick="signup()">Signup</a>
+                <!-- <div class="contact_div">
+               <span><b> &#128222; &nbsp; +917814819641  +917740005114</b></span><br>
+               <span><b>contact us : sec 113-114 first floor,chandigarh</b></span>
+                </div> -->
+            </div>
+
+
+        </div>
+        </div>
+
+    </header>
+    <marquee class="marquee" scroolamount="20" onmouseover="this.stop()"onmouseout="this.start()">Latest offers Lorem ipsum dolor sit amet consectetur adipisicing.</marquee>
+
+    <div class="Header_after">
+        <div class="login_div">
+            <h1 class="enquery">Enquery</h1>
+            <form actcion="#" method="post">
+                <div class="enquery_div">
+                <div class="form_div">
+                    <label>Name:</label>
+                    <input class="myfield" name="name" required placeholder="enter your name">
+                </div>
+                <div class="form_div">
+                    <label>Email:</label>
+                    <input class="myfield" name="Email" required placeholder="enter your Email-id">
+                </div>
+                <div class="form_div">
+                    <label>subject:</label>
+                    <input class="myfield" name="subject" required placeholder="enter your subject">
+                </div>
+                <div class="form_div">
+                    <label>Messege:</label>
+                    <textarea class="mymessege" rows="8" name="name" required></textarea>
+                </div>
+                <div class="form_div">
+                    <label><button class="btn">Submit</button></label>
+            
+                </div>
+            </div>
+            </form>
+
+
+        </div>
+        <div class="gallery_div">
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+    <div class="ws_images"><ul>
+            <li><img src="data1/images/gallery.jpg" alt="Goa Trip in Just 50000 Rupees " title="Goa Trip in Just 50000 Rupees " id="wows1_0"/></li>
+            <li><a href="http://wowslider.net"><img src="data1/images/login.jpg" alt="javascript photo gallery" title="login" id="wows1_1"/></a></li>
+            <li><img src="data1/images/offer.jpg" alt="offer" title="himalays trip very cheap price" id="wows1_2"/></li>
+        </ul></div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="Goa Trip in Just 50000 Rupees "><span><img src="data1/tooltips/gallery.jpg" alt="Goa Trip in Just 50000 Rupees "/>1</span></a>
+            <a href="#" title="login"><span><img src="data1/tooltips/login.jpg" alt="login"/>2</span></a>
+            <a href="#" title="offer"><span><img src="data1/tooltips/offer.jpg" alt="offer"/>3</span></a>
+        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v9.0</div>
+    <div class="ws_shadow"></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+        </div>
+        <div class="offer_div">
+            <h1 class="enquery">Our Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27436.05932404111!2d76.74088570216286!3d30.732245462313248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedab4d1f18f7%3A0xe4305246a72ce9a2!2sGoGlobal%20Consultants%20Chandigarh!5e0!3m2!1sen!2sin!4v1727190253282!5m2!1sen!2sin" width="100%" height="350px" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+    </div>
+    <div class="package_heading">
+        <h3>Our Packaging</h3>
+    </div>
+    <div class="package_offer_div">
+        <div class="offer_card">
+            <img class="new-img" src="images/travelp.png" >
+
+        </div>
+        <div class="offer_card">
+            <img class="new-img" src="images/travel2.png">
+
+        </div>
+        <div class="offer_card">
+            <img class="new-img" src="images/travel3.png">
+
+        </div>
+    </div>
+    <div class="whychooseus">
+        <button class="readbutton">review us</button>
+    </div>
+    <div class="media_content">
+        <div class="media">
+        <img src="images/review.png" class="review_image"/>
+        <button class="review_button" onclick="geetika()">Review Now</button>
+        </div>
+        <div class="media">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QVoSgRbd69c?si=ZdymwzCR1VFCKsJJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_div">
+            <div class="footer_top_div" >
+                <div class="top_content">
+                    <table cellpadding="10" align="center">
+                        <tr >
+                          <td><b>About</b></td>
+                        </tr>
+        
+                            <tr>
+                          <td>contact us</td>
+                        </tr>
+                        <tr>
+                          <td>about us</td>
+                        </tr>
+                    <tr>
+                          <td>carrier</td>
+                        </tr>
+                    <tr>
+                          <td>story</td>
+                        </tr>
+                        
+                  </table>
+
+
+                </div>
+                <div class="top_content">
+                    <table cellpadding="10" align="center">
+                        <tr >
+                          <td><b>Group companies </b></td>
+                        </tr>
+        
+                            <tr>
+                          <td>booking.com</td>
+                        </tr>
+                        <tr>
+                          <td>Mytrip.com</td>
+                        </tr>
+                    <tr>
+                          <td>gobibi.com</td>
+                        </tr>
+                
+                        
+                  </table>
+
+
+                </div>
+
+                <div class="top_content">
+                    <table cellpadding="10" align="center">
+                        <tr >
+                          <td><b>Consumer Policy </b></td>
+                        </tr>
+        
+                            <tr>
+                          <td>Privacy</td>
+                        </tr>
+                        <tr>
+                          <td>Security</td>
+                        </tr>
+                    <tr>
+                          <td>Sitemap</td>
+                        </tr>
+                        <tr>
+                            <td>Protection</td>
+                        </tr>
+                
+                        
+                  </table>
+
+
+                </div>
+                
+                <div class="top_content">
+                    <table   cellpadding="8">
+                        <tr align="center">
+                            <th>Menu</th>
+                            <th>Explore</th>
+                            <th>Policy</th>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="Login.html">Login</a></td>
+                          
+                            <td><a href="travel.html">Subscribe us</a></td>
+                            <td><a href="About.html">Deal Of the Day</a></td>
+                          
+                        </tr>
+                        <tr align="center">
+                            <td><a href="travel.html">Home</a></td>
+                            <td><a href="travel.html">Our Latest offer</a></td>
+                         
+                            <td><a href="About.html">Privacy & policy</a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="Contact.html">Contact</a></td>
+                            <td><a href="Contact.html">Term & Condition</a></td>
+                           
+                            <td><a href="Contact.html">Recent Added Blogs</a></td>
+                        </tr>
+                      
+                        <tr align="center">
+                            <td><a href="About.html">About us</a></td>
+                            <td><a href="Login.html">Become A Partner?</a></td>
+                            <td><a href="Login.html">Upcoming New Packeges</a></td>
+                        </tr>
+
+                     </table>
+
+
+                </div>
+                <!-- <div class="top_content">
+                    <table cellpadding="8" align="center">
+                        <tr>
+                         <th>Address</th>
+                        </tr>
+                        <tr>
+                           <td>Chandigarh Sec34A Sco 112-113 First Floor </td>
+                        </tr>
+                        <tr>
+                           <td>Phone :+91-9728082087 , +919712204693</td>
+                        </tr>
+                        <tr align="center">
+                           <td>Follow us:</td>
+                        </tr>
+                        <tr align="center">
+                           <td><a href="">Facebook</a>&nbsp;|&nbsp;<a href="">Instagram</a>&nbsp;|&nbsp;<a href="">Twitter</a></td>
+                        </tr>
+                   </table>
+                </div> -->
+            </div>
+                <div class="footer_bottom_div">
+                <div class="footer_bottom_content">
+                    <a href="#">Beacome a Seller</a>
+                </div>
+                <div class="footer_bottom_content">
+                    <i class="fas fa-bullhorn"><a href="#">Advertisement</a></i>
+                
+                </div>
+                <div class="footer_bottom_content">
+                    <a href="#"> &#9993;Gift card</a>
+                
+                </div>
+                <div class="footer_bottom_content">
+                    <a href="#">Help Center &#128222;</a>
+                
+                </div>
+<div class="footer_bottom_content">
+    <img class="logo_div" src="/images/paymentlogo.png" alt="height=100px; width=100%">
+
+</div>
+            </div>
+
+
+
+            
+        </div>
+    </footer>
+    
+</body>
+</html>

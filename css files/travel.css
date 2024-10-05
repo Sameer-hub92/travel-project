@@ -1,0 +1,337 @@
+.menubar{
+    background: linear-gradient(to left, #7da3a36f, #ffffff);
+    width: 100%;
+    height: 80px;
+}
+
+.logo_img{
+    width: 7%;
+    height: 100%;
+    float: left;
+    
+}
+.menu_container{
+    display: flex;
+    gap: 4%;
+
+    margin-left: 40%;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+.menu_item{
+    background-color:rgb(60, 123, 140);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+    top: 20px;
+
+}
+.menu_item:hover{
+    background-color: black;
+    color: white;
+}
+.contact_div{
+    background-color: rgb(194, 236, 236);
+width:100% ;
+height: 25px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.Header_after{
+    
+    height: 385px;
+    display: flex;
+    margin-top: -5px;
+    /* border: 1px solid green; */
+
+}
+.login_div{
+    width: 25%;
+    height: 100%;
+    border: 1px solid grey;
+   
+    
+    
+}
+.gallery_div{
+    width: 50%;
+    height:100%;
+    /* border: 1px solid grey; */
+    
+   
+
+
+}
+.offer_div{
+    width: 25%;
+    height: 100%;
+    border: 1px solid grey;
+   
+   
+
+}
+.enquery_div{
+    padding: 25px;
+}
+
+.enquery{
+    background-color:rgb(100, 188, 188);
+    margin: 0;
+    text-align: center;
+}
+.marquee{
+    background-color: skyblue;
+    color: white;
+    
+
+}
+.form_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.myfield{
+    border: none;
+    height: 40px;
+    color: rgb(68,56,56);
+    font-weight: bold;
+    padding: 2px;
+    transition: background-color 0.8s ease , box-shadow 0.8s ease;
+}
+
+.myfield:hover{
+    outline: none;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+}
+.mymessege{
+    height: 60px;
+    background:#f0f0f0;
+    border-radius: 6px;
+    color: rgb(68,56,56);
+    font-weight: bold;
+    padding: 4px;
+    transition: background-color 0.8s ease , box-shadow 0.8s ease;
+
+}
+.btn{
+    /* border-radius: 5px; */
+    background-color:  rgb(234, 223, 223);
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+}
+.package_heading{
+    text-align: center;
+}
+.package_offer_div{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.offer_card{
+    width: 22%;
+    height: 300px;
+    /* background-color:green; */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
+.offer_card:hover{
+    box-shadow: 0 10px 16px rgba(0,0,0,0.4), 0 12px 20px rgba(0,0,0,0.40);
+}
+.new-img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.whychooseus{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url("/images/chooseus.gif");
+    background-size: cover;
+    /* background-position: calc(cover); */
+
+}
+.readbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 70%;
+    margin-left: 50%;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.readbutton:hover{
+    background-color: white;
+}
+.media_content
+{
+    
+     width: 100%;
+     margin-top:2%;
+     height:600px;
+     display: flex;
+     justify-content: space-around;
+}
+.media
+{
+     width:100%;
+     height: 100%;
+}
+.review_image
+{
+     width:100%;
+     height:60%;
+}
+.review_button
+{
+     background-color:rgb(224,181,78);
+     color:white;
+     padding: 15px;
+     border: none;
+     width:30%;
+     border-radius:20px;
+     cursor: pointer;
+     margin-top:14%;
+     margin-left:33%;
+     font-size:15px;
+}
+.review_button:hover{
+     background-color:rgb(20, 19, 14);
+     color:rgb(224,181,78);
+}
+
+.modal
+{
+       width:100%;
+       height:100%;
+       background-color:rgba(0,0,0,0.5);
+       position: fixed;
+       left:0;
+       top:0;
+       z-index:1000;
+       display: none;
+       
+}
+.login_button{
+    background-color:#fff;
+    width:30%;
+    border-radius:5px;
+    padding:20px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    margin:5% auto; /* top and bottom 15% margin . left and right Automstocally caluclate equal left and rifht maright */
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.btnlogin{
+    margin-left: 150px;
+}
+.signin_button{
+    background-color:#fff;
+    width:30%;
+    border-radius:5px;
+    padding:20px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    margin:5% auto; /* top and bottom 15% margin . left and right Automstocally caluclate equal left and rifht maright */
+
+
+
+}
+.review-content
+{
+      background-color:#fff;
+      width:30%;
+      border-radius:5px;
+      padding:20px;
+      box-shadow:0 4px 8px rgba(0,0,0,0.1);
+      position: relative;
+      margin:5% auto; /* top and bottom 15% margin . left and right Automstocally caluclate equal left and rifht maright */
+}
+.close_button
+{
+     cursor: pointer;
+     font-size:24px;
+     color:red;
+     position: absolute;
+     right:10px;
+     top:10px;
+}
+
+.footer_div{
+    background: linear-gradient(to left, #7da3a36f, #ffffff);
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    display: block;
+    
+}
+.footer_top_div{
+    width: 100%;
+    height: 200px;
+    color: rgb(90, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_bottom_div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.top_content{
+    margin-top: 3%;
+    width: 25%;
+    height: 200px;
+    padding: auto;
+    /* color: black; */
+    /* background-color: red; */
+
+}
+.footer_bottom_content{
+    margin-top: 10%;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    /* margin-left: 20px; */
+    /* background-color: cadetblue; */
+    
+
+}
+.logo_div{
+    width: 70%;
+    margin-top: -20px;
+}
+.about{
+    font-size: x-large;
+    font-weight: bolder;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css files/travel.css">
+</head>
+<body>
+    <script>
+        // function geetika()
+        // {
+        //       document.getElementById("muskaan").style.display='block';
+        // }
+        // function close_div()
+        // {
+        //   document.getElementById("muskaan").style.display='none';
+        // }
+        function sameer (){
+            document.getElementById("keshav").style.display='block';
+            document.getElementById("ankit").style.display='none';
+    
+    
+        }
+        function close_login(){
+            document.getElementById("keshav").style.display='none';
+        }
+        function signup(){
+            document.getElementById("ankit").style.display='block';
+            document.getElementById("keshav").style.display='none';
+        }
+        function close_sign(){
+            document.getElementById("ankit").style.display='none';
+        }
+    </script>
+    </head>
+    <body>
+         <!-- sign in  -->
+        <div class="modal" id="ankit">
+            <div class="signin_button">
+                <span class="close_button"  onclick="close_sign()">&times;</span>
+                <h2 align="center">sign_in</h2>
+                <form action="#">
+                    <div class="form_div">
+                <label>Name:</label><br>  
+                <input class="myfield" name="name" required placeholder="Enter your name"><br>
+                    </div>
+                    <div class="form_div">
+                <label>Email:</label><br>
+                <input class="myfield" name="email" required placeholder="Enter youe email"><br>
+                    </div>
+                    <div class="form_div">
+                <label>Password:</label><br>
+                <input class="myfield" name="password" required placeholder="enter your password"><br>
+                    </div>
+                <div class="form_div">
+                <label>Mobile no.:</label><br>
+                <input class="myfield" name="mobile no." required placeholder="enter your number"><br>
+                </div>
+                <button class="btnlogin">sign-in</button><br>
+                <a href="#" onclick="sameer()">Already ave an account?</a>
+     
+            </form>
+            </div>
+        </div>
+    
+    
+        <!-- login div -->
+        <div class="modal" id="keshav">
+            <div class="login_button">
+                <span class="close_button"  onclick="close_login()">&times;</span>
+                <h2 align="center">Login</h2>
+                <form action="#">
+                    <div class="form_div">
+                <label>Name</label><br>  
+                <input class="myfield" name="name" required placeholder="Enter your name"><br>
+                    </div>
+                    <div class="form_div">
+                <label>Email</label><br>
+                <input class="myfield" name="email" required placeholder="Enter youe email"><br>
+                    </div>
+                <button  class="btnlogin">login</button>
+            </form>
+            <p class="Signup-text">Don't have an account?<a href="#" onclick="signup()">create an account</a></p>
+            </div>
+        </div>
+        <!-------Review Pop Div-->
+<!--      
+    <div class="modal" id="muskaan">
+        <div class="review-content">
+           <span class="close_button"  onclick="close_div()">&times;</span>
+              <h2>Review us</h2>
+              <p>Leave your Review For Our Servies</p>
+              <textarea cols="30" rows="10"> </textarea>
+        </div>
+       </div> -->
+       
+       <!--Review Pop Up Div End-->
+    <div class="contact_div">
+            <div>
+               Address: sec 113-114 first floor,chandigarh
+    
+            </div>
+            <div>
+    <span>&#9993;</span> :sameervats13@gmail.com
+            </div>
+            <div>
+    &#128222; &nbsp; +917814819641  +917740005114
+            </div>
+        </div>
+        
+        
+    
+        <header>
+    
+             
+                    <div class="menubar">
+                <img class="logo_img" src="images/download.jpeg">
+                <div class="menu_container">
+                    <a class="menu_item" href="/home.html">Home</a>
+                    <a class="menu_item" href="/about.html">About</a>
+                    <a class="menu_item" href="/contact.html">Contact</a>
+                    <a class="menu_item" href="#" onclick="sameer()">Login</a>
+                    <a class="menu_item" href="#" onclick="signup()">Signup</a>
+                    <!-- <div class="contact_div">
+                   <span><b> &#128222; &nbsp; +917814819641  +917740005114</b></span><br>
+                   <span><b>contact us : sec 113-114 first floor,chandigarh</b></span>
+                    </div> -->
+                </div>
+    
+    
+            </div>
+            </div>
+    
+        </header>
+        <!-- <marquee class="marquee" scroolamount="20" onmouseover="this.stop()"onmouseout="this.start()">Latest offers Lorem ipsum dolor sit amet consectetur adipisicing.</marquee> -->
+        <div align="center" class="about"> 
+
+            &#128222; Contact: 7814819641, 7740005114<br>
+            
+            
+            Welcome to our travel website, your ultimate gateway to unforgettable adventures and breathtaking destinations. Whether you're a thrill-seeker, a nature enthusiast, or someone looking to unwind, we have something special for everyone. Our travel services are designed to provide you with a seamless and memorable experience, from planning your itinerary to exploring hidden gems around the globe.<br>
+            
+            Discover the serene beaches, majestic mountains, vibrant cities, and cultural wonders that will leave you mesmerized. With our dedicated team of experts, we ensure that every journey is tailor-made to suit your preferences and budget. Enjoy curated travel packages, local experiences, and hassle-free bookings.<br>
+            
+            Adventure awaits—embrace the journey and let us handle the rest. From solo travelers to family vacations, we cater to all types of explorers. Start planning your dream trip today and unlock the magic of travel. Don't just travel, create memories that will last a lifetime.<br>
+            
+            Get in touch with us at 7814819641 or 7740005114 for personalized assistance and exclusive offers
+                    </div>
+</body>
+</html>

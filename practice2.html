@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css files/practice2.css">
+    <link rel="stylesheet" href="file:///C:/Users/samee/OneDrive/Desktop/wow%20slider">
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+<script>
+    function review(){
+        document.getElementById("keshav").style.display='block';
+    }
+    function close_div(){
+        document.getElementById("keshav").style.display='none';
+        document.getElementById("sameer").style.display='none';
+        document.getElementById("ankit").style.display='none';
+
+    }
+    function login(){
+        document.getElementById("sameer").style.display='block';
+        document.getElementById("ankit").style.display='none';
+    }
+    function account(){
+        document.getElementById("ankit").style.display='block';
+        document.getElementById("sameer").style.display='none';
+    }
+</script>
+<body>
+    <div class="modal" id="keshav">
+        <div class="review">
+            <span class="close_button" onclick="close_div()">&times;</span>
+            <h2>Review us</h2>
+            <p>leave your genuine review for our services</p>
+            <textarea  cols="30" rows="10"></textarea>
+        </div>
+
+    </div>
+    <div class="modal" id="sameer">
+        <div class="login">
+            <h2>Log-In</h2>
+            <span class="close_button" onclick="close_div()">&times;</span> 
+            <form action="#">
+                <div class="mydiv">
+                    <label>Name:</label><br>
+                    <input class="myfield" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="mydiv">
+                    <label>Password:</label><br>
+                    <input class="myfield" name="Password" required placeholder="Enter your Password">
+                </div>
+                <button>Login</button>
+                <p>Do not have an account?<a href="#" onclick="account()">Create an account</a></p>
+
+
+            </form>
+
+        </div>
+    </div>
+    <div class="modal" id="ankit">
+        <div class="sign-in">
+            <h2>Sign-In</h2>
+            <span class="close_button" onclick="close_div()">&times;</span>
+            <form action="#">
+                <div class="mydiv">
+                    <label>Name:</label><br>
+                    <input class="myfield" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="mydiv">
+                    <label>Email:</label><br>
+                    <input class="myfield" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="mydiv">
+                    <label>Password:</label><br>
+                    <input class="myfield" name="Password" required placeholder="Enter your Password">
+                </div>
+                <div class="mydiv">
+                    <label>Mobile no:</label><br>
+                    <input class="myfield" name="Mobile no" required placeholder="Enter your mobile no">
+                </div>
+                <button>Signin</button><br>
+                <a href="#" onclick="login()">Already have an account</a>
+
+
+            
+            </form>
+        </div>
+    </div>
+    <header><div class="contact_div">
+    <div>
+        Address: Global Immigration Chandigarh First Floor Sco above SBI Bank 
+    </div>
+    <div>
+        <span>&#9993;</span> :Sameervats13@gmail.com
+    </div>
+    <div>
+
+        &#128222; &nbsp;+91 7814819641 +91 7740005114
+    </div>
+
+</div>
+    <div class="main_div">
+                                <img class="img" src="/images/imigration.png">
+
+        <div class="div_container">
+
+
+            <a class="div_item" href="#">HOME</a>
+            <a  class="div_item" href="#">ABOUT</a>
+            <a class="div_item" href="#">CONTACT</a>
+            <a class="div_item" href="#" onclick="login()">LOG-IN</a>
+            <a class="div_item" href="#" onclick="account()">SIGN-IN</a>
+        </div>
+    </div>
+</header>
+<marquee scroolamount="10" onmouseover="this.stop()" onmouseout="this.start()"><b>*Apply for offerletter in any country <mark>free of cost*</mark></b></marquee>
+
+<div class="nextmain-div">
+    <div class="first">
+        <h1 align="center" class="enqueary">Enquery</h1>
+        <div class="enqueary_div">
+            <form action="#" method="post">
+                <div class="myfield">
+                    <label>Name:</label>
+                    <input class="myinput" name="Name" required placeholder="Enter your name">
+                </div>
+                <div class="myfield">
+                    <label>Email:</label>
+                    <input class="myinput" name="Email" required placeholder="Enter your Email">
+                </div>
+                <div class="myfield">
+                    <label>Subject:</label>
+                    <input  class="myinput" name="Subject" required placeholder="Title for your query">
+                </div>
+                <div class="myfield">
+                    <label>Messege:</label>
+                    <textarea class="mymessege" rows="8" required></textarea>
+                </div>
+                <div class="myfiels">
+                    <button class="btn">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="second">
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+    <div class="ws_images"><ul>
+            <li><img src="data1/images/pexelsfreestockpro1004584.jpg" alt="pexels-freestockpro-1004584" title="Global Immigration" id="wows1_0"/></li>
+            <li><img src="data1/images/pexelshannahmgibbs3615644.jpg" alt="pexels-hannahmgibbs-3615644" title="New York VISA" id="wows1_1"/></li>
+            <li><img src="data1/images/pexelskyleroxas2226900.jpg" alt="pexels-kyleroxas-2226900" title="New zeland VISA" id="wows1_2"/></li>
+            <li><a href="http://wowslider.net"><img src="data1/images/pexelsdjpetty2756790.jpg" alt="javascript photo gallery" title="Canada VISA" id="wows1_3"/></a></li>
+            <li><img src="data1/images/pexelstimamiroshnichenko7009611.jpg" alt="pexels-tima-miroshnichenko-7009611" title="Tourist VISA for all Countries " id="wows1_4"/></li>
+        </ul></div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="pexels-freestockpro-1004584"><span><img src="data1/tooltips/pexelsfreestockpro1004584.jpg" alt="pexels-freestockpro-1004584"/>1</span></a>
+            <a href="#" title="pexels-hannahmgibbs-3615644"><span><img src="data1/tooltips/pexelshannahmgibbs3615644.jpg" alt="pexels-hannahmgibbs-3615644"/>2</span></a>
+            <a href="#" title="pexels-kyleroxas-2226900"><span><img src="data1/tooltips/pexelskyleroxas2226900.jpg" alt="pexels-kyleroxas-2226900"/>3</span></a>
+            <a href="#" title="pexels-djpetty2-756790"><span><img src="data1/tooltips/pexelsdjpetty2756790.jpg" alt="pexels-djpetty2-756790"/>4</span></a>
+            <a href="#" title="pexels-tima-miroshnichenko-7009611"><span><img src="data1/tooltips/pexelstimamiroshnichenko7009611.jpg" alt="pexels-tima-miroshnichenko-7009611"/>5</span></a>
+        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel slider</a> by WOWSlider.com v9.0</div>
+    <div class="ws_shadow"></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+    </div>
+    <div class="third">
+        <h2 align="center" class="enqueary">Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27436.05932404111!2d76.74088570216286!3d30.732245462313248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedab4d1f18f7%3A0xe4305246a72ce9a2!2sGoGlobal%20Consultants%20Chandigarh!5e0!3m2!1sen!2sin!4v1727190253282!5m2!1sen!2sin" width="100%" height="350px" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</div>
+
+<div class="nextnew">Our packages</div>
+<div class="new_packages">
+    <div class="offer_package">
+        <img class="new_img" src="images/studyvisa.png">
+    </div>
+    <div class="offer_package">
+        <img class="new_img" src="images/tours.png">
+
+    </div>
+    <div class="offer_package">
+        <img class="new_img" src="images/study.png">
+
+    </div>
+    </div>
+</div>
+
+<!-- why choose us -->
+ <div class="whychooseus">
+
+ </div>
+
+ <!-- review us -->
+
+ <div class="media_content">
+    <div class="media">
+        <img src="/images/reviewus.png" class="review_image">
+        <button class="review_button" onclick="review()">Review now</button>
+    </div>
+    <div class="media">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/3SsK-cxlj_w?si=961nSOYdpPO-_kfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+ </div>
+
+ <footer>
+    <div class="footer_div">
+        <div class="footer_top_div" >
+            <div class="top_content">
+                <table cellpadding="10" align="center">
+                    <tr >
+                      <td><b>About</b></td>
+                    </tr>
+    
+                        <tr>
+                      <td>contact us</td>
+                    </tr>
+                    <tr>
+                      <td>about us</td>
+                    </tr>
+                <tr>
+                      <td>carrier</td>
+                    </tr>
+                <tr>
+                      <td>story</td>
+                    </tr>
+                    
+              </table>
+
+
+            </div>
+            <div class="top_content">
+                <table cellpadding="10" align="center">
+                    <tr >
+                      <td><b>Group companies </b></td>
+                    </tr>
+    
+                        <tr>
+                      <td>booking.com</td>
+                    </tr>
+                    <tr>
+                      <td>Mytrip.com</td>
+                    </tr>
+                <tr>
+                      <td>gobibi.com</td>
+                    </tr>
+            
+                    
+              </table>
+
+
+            </div>
+
+            <div class="top_content">
+                <table cellpadding="10" align="center">
+                    <tr >
+                      <td><b>Consumer Policy </b></td>
+                    </tr>
+    
+                        <tr>
+                      <td>Privacy</td>
+                    </tr>
+                    <tr>
+                      <td>Security</td>
+                    </tr>
+                <tr>
+                      <td>Sitemap</td>
+                    </tr>
+                    <tr>
+                        <td>Protection</td>
+                    </tr>
+            
+                    
+              </table>
+
+
+            </div>
+            
+            <div class="top_content">
+                <table   cellpadding="8">
+                    <tr align="center">
+                        <th>Menu</th>
+                        <th>Explore</th>
+                        <th>Policy</th>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="Login.html">Login</a></td>
+                      
+                        <td><a href="travel.html">Subscribe us</a></td>
+                        <td><a href="About.html">Deal Of the Day</a></td>
+                      
+                    </tr>
+                    <tr align="center">
+                        <td><a href="travel.html">Home</a></td>
+                        <td><a href="travel.html">Our Latest offer</a></td>
+                     
+                        <td><a href="About.html">Privacy & policy</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="Contact.html">Contact</a></td>
+                        <td><a href="Contact.html">Term & Condition</a></td>
+                       
+                        <td><a href="Contact.html">Recent Added Blogs</a></td>
+                    </tr>
+                  
+                    <tr align="center">
+                        <td><a href="About.html">About us</a></td>
+                        <td><a href="Login.html">Become A Partner?</a></td>
+                        <td><a href="Login.html">Upcoming New Packeges</a></td>
+                    </tr>
+
+                 </table>
+
+
+            </div>
+            <!-- <div class="top_content">
+                <table cellpadding="8" align="center">
+                    <tr>
+                     <th>Address</th>
+                    </tr>
+                    <tr>
+                       <td>Chandigarh Sec34A Sco 112-113 First Floor </td>
+                    </tr>
+                    <tr>
+                       <td>Phone :+91-9728082087 , +919712204693</td>
+                    </tr>
+                    <tr align="center">
+                       <td>Follow us:</td>
+                    </tr>
+                    <tr align="center">
+                       <td><a href="">Facebook</a>&nbsp;|&nbsp;<a href="">Instagram</a>&nbsp;|&nbsp;<a href="">Twitter</a></td>
+                    </tr>
+               </table>
+            </div> -->
+        </div>
+            <div class="footer_bottom_div">
+            <div class="footer_bottom_content">
+                <i class="fas fa-store">Become a seller</i> <!-- Store icon -->
+
+                <!-- <a href="#">Beacome a Seller</a> -->
+            </div>
+            <div class="footer_bottom_content">
+                <i class="fas fa-bullhorn">Advertisement</i>
+            
+            </div>
+            <div class="footer_bottom_content">
+                <a href="#"> &#9993;Gift card</a>
+            
+            </div>
+            <div class="footer_bottom_content">
+                <a href="#">Help Center &#128222;</a>
+            
+            </div>
+<div class="footer_bottom_content">
+<img class="logo_div" src="/images/paymentlogo.png" alt="height=100px; width=100%">
+
+</div>
+        </div>
+
+
+
+        
+    </div>
+</footer> 
+</body>
+</html>
