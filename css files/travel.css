@@ -312,6 +312,8 @@ a{
     width: 25%;
     height: 200px;
     padding: auto;
+    cursor: pointer;
+    color: black;
     /* color: black; */
     /* background-color: red; */
 
@@ -322,16 +324,47 @@ a{
     height: 100px;
     text-align: center;
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    /* cursor: pointer; */
     /* margin-left: 20px; */
     /* background-color: cadetblue; */
     
 
 }
-.logo_div{
-    width: 70%;
-    margin-top: -20px;
+
+.footer_bottom_content h4{
+    font-family: sans-serif;
+    color: black;
+}
+
+.footer_bottom_content i{
+    color:rgb(224,181,78);
+}
+.contact{
+    font-size: x-large;
+    font-weight: bolder;
+    background-color:  #7da3a36f;
+    margin-top: 80px;
+}
+.payment{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-top: 5px;
+
+    
+}
+
+.payment img{
+    mix-blend-mode: multiply;
 }
 .about{
     font-size: x-large;
     font-weight: bolder;
+    background-color:  #7da3a36f;
+    margin-top: 80px;
 }
+
+
+
